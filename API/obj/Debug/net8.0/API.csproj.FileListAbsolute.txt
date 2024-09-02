@@ -257,3 +257,4 @@ C:\Users\PC PBA SCORPION\Documents\CursoAngular\DatingApp2\API\obj\Debug\net8.0\
 C:\Users\PC PBA SCORPION\Documents\CursoAngular\DatingApp2\API\obj\Debug\net8.0\API.pdb
 C:\Users\PC PBA SCORPION\Documents\CursoAngular\DatingApp2\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\PC PBA SCORPION\Documents\CursoAngular\DatingApp2\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\PC PBA SCORPION\Documents\CursoAngular\DatingApp2\api\obj\Debug\net8.0\API.sourcelink.json

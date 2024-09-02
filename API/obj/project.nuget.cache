@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qnkARObWQ90=",
+  "dgSpecHash": "faApsZl/MsQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC PBA SCORPION\\Documents\\CursoAngular\\DatingApp2\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\PC PBA SCORPION\\Documents\\CursoAngular\\DatingApp2\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC PBA SCORPION\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\PC PBA SCORPION\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.5\\microsoft.aspnetcore.authentication.jwtbearer.8.0.5.nupkg.sha512",

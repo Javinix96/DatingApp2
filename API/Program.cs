@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using API.Extensions;
+using API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +16,13 @@ builder.Services.AddIdentityservice(builder.Configuration);
 
 var app = builder.Build();
 
+app.UseMiddleware<ExceptionMiddleware>();
+
 
 app.UseCors((builder) => builder.AllowAnyHeader().AllowAnyHeader().WithOrigins("http://localhost:4200"));
 
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.UseHttpsRedirection();
