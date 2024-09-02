@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { errorContext } from 'rxjs/internal/util/errorContext';
 
 @Component({
@@ -11,7 +12,9 @@ import { errorContext } from 'rxjs/internal/util/errorContext';
 })
 export class TestErrorsComponent {
   baseUrl = 'http://localhost:5000/api/';
+  private router = inject(Router);
   private http = inject(HttpClient);
+  validationsErrors: string[] = [];
 
   get400Error() {
     this.http.get(this.baseUrl + 'buggy/bad-request').subscribe({
@@ -49,7 +52,9 @@ export class TestErrorsComponent {
       })
       .subscribe({
         next: (response) => console.log(response),
-        error: (error) => console.log(error),
+        error: (error) => {
+          this.validationsErrors = error;
+        },
       });
   }
 }
