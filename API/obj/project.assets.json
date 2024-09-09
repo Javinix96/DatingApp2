@@ -2844,24 +2844,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/javierrodriguez/.nuget/packages/": {}
+    "C:\\Users\\PC PBA SCORPION\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/javierrodriguez/Desktop/DatingApp2/API/API.csproj",
+      "projectUniqueName": "C:\\Users\\PC PBA SCORPION\\Documents\\CursoAngular\\DatingApp2\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/javierrodriguez/Desktop/DatingApp2/API/API.csproj",
-      "packagesPath": "/Users/javierrodriguez/.nuget/packages/",
-      "outputPath": "/Users/javierrodriguez/Desktop/DatingApp2/API/obj/",
+      "projectPath": "C:\\Users\\PC PBA SCORPION\\Documents\\CursoAngular\\DatingApp2\\api\\API.csproj",
+      "packagesPath": "C:\\Users\\PC PBA SCORPION\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC PBA SCORPION\\Documents\\CursoAngular\\DatingApp2\\api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/javierrodriguez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\PC PBA SCORPION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2927,7 +2934,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
